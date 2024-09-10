@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/curriculo.css">
+    <style>
+        /* Adiciona uma cor de plano de fundo ao body */
+        body {
+            background-color: #f4f4f9; 
+            color: #333; 
+            font-family: Arial, sans-serif; 
+        }
+
+      
+
+        /* Adiciona sombra ao texto dos headings */
+        h1, h3 {
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Estilo para o menu */
+        #menu {
+            background-color: #e0e0e0; /* Cor de fundo para o menu */
+            padding: 10px; /* Adiciona espaçamento interno */
+            border-radius: 5px; 
+        }
+
+        #menu a {
+            text-decoration: none; 
+            color: #0066cc; 
+            margin-right: 10px; 
+        }
+
+        #menu a:hover {
+            text-decoration: underline; 
+        }
+
+        /* Estilo para o iframe */
+        iframe {
+            width: 80%;
+            height: 300px; 
+            border: none; 
+        }
+
+        /* Estilo para o rodapé */
+        footer {
+            background-color: #333; 
+            color: white; 
+            text-align: center; 
+            padding: 10px 0; 
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <title>Bernardo Simões</title>
+</head>
+
+<body>
+    <div id="apresentacao">
+        <h1>Bernardo Simões</h1>
+        <img src="imgs/bernardo perfil.jpg" alt="Danilo Farias" style="width: 16%; height: 16%; border-radius: 40%;">
+        <h3>(Analista de Sistemas)</h3>
+        <hr>
+    </div>
+    <!-- Menu -->
+    <div>
+        <div id="menu">
+            <span><a href="componentes/curriculoSobre.html" target="main"><b>Sobre</b></a> | 
+            <a href="componentes/curriculoFormacao.html" target="main"><b>Formação Acadêmica</b></a> | 
+            <a href="componentes/curriculoExperiencia.html" target="main"><b>Experiência Profissional</b></a><br></span>
+            <br>
+        </div>
+        <iframe src="componentes/curriculoSobre.html" frameborder="0" name="main" scrolling="auto"></iframe>
+        <hr>
+    </div>
+    <div id="endereco">
+        <h2>Endereço/Contato:</h2>
+        <address>
+            Desenvolvido: <a href="mailto:bernardo0simoes@gmail.com"> Bernardo Simões</a>.<br>
+            Visite: <a href="https://github.com/b3rnardo15" target="_blank"> Portifólio GitHub</a><br>
+            Rua Vinte um de Abril, 773<br> Recife, PE – Brasil<br>
+            Outros: <a href="https://www.figma.com/proto/0TqqG8Hx4HLX4ah2iyv2j7/Bernardo-Sim%C3%B5es---Perfil?type=design&node-id=2-1339&t=Vi1LyAKQcSeyTnKg-0&scaling=contain&page-id=0%3A1" target="_blank"> Figma Portifolio</a><br>
+            Telefone: <a href="https://api.whatsapp.com/send/?phone=5581985605505&text=Ol%C3%A1+Bernardo%2C+tudo+bem%3F&type=phone_number&app_absent=0" target="_blank"> Telefone de contato</a><br>
+        </address>
+    </div>
+    <hr>
+</body>
+
+<footer>
+    <span>Copyright © 2024 Bernardo Simões. Todos os Direitos Reservados.</span>
+</footer>
+
+</html>
